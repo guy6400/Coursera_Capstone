@@ -1,0 +1,2440 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_834aa2c8bd8447e8a1ccdb2a652e9796 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_834aa2c8bd8447e8a1ccdb2a652e9796" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_834aa2c8bd8447e8a1ccdb2a652e9796 = L.map(
+                                  'map_834aa2c8bd8447e8a1ccdb2a652e9796',
+                                  {center: [31,35],
+                                  zoom: 7,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_3a7e8ef70c904977bcee900f790ec4ff = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+        
+    
+            var circle_marker_79f3bde2636243eba1c555ce49f7050a = L.circleMarker(
+                [32.9281731,35.0756378],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_70160158fa89434e9d49c7228b351925 = L.popup({maxWidth: '300'});
+
+            
+                var html_ddd38dca6f9c4b398ecda1d5a313b994 = $('<div id="html_ddd38dca6f9c4b398ecda1d5a313b994" style="width: 100.0%; height: 100.0%;">Acre, North</div>')[0];
+                popup_70160158fa89434e9d49c7228b351925.setContent(html_ddd38dca6f9c4b398ecda1d5a313b994);
+            
+
+            circle_marker_79f3bde2636243eba1c555ce49f7050a.bindPopup(popup_70160158fa89434e9d49c7228b351925);
+
+            
+        
+    
+            var circle_marker_906c403d1d324099a079a7e27edc53e4 = L.circleMarker(
+                [32.6075587,35.2890861],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_373e31543e8a440191f336c112f0d38b = L.popup({maxWidth: '300'});
+
+            
+                var html_efe2532098854db6ab4fe4c7aec81428 = $('<div id="html_efe2532098854db6ab4fe4c7aec81428" style="width: 100.0%; height: 100.0%;">Afula, North</div>')[0];
+                popup_373e31543e8a440191f336c112f0d38b.setContent(html_efe2532098854db6ab4fe4c7aec81428);
+            
+
+            circle_marker_906c403d1d324099a079a7e27edc53e4.bindPopup(popup_373e31543e8a440191f336c112f0d38b);
+
+            
+        
+    
+            var circle_marker_922db564b356497cadff05a1bbcb3f5e = L.circleMarker(
+                [31.2612199,35.214581],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_7f3400ea8e0d43578fbe79e09bb46b1d = L.popup({maxWidth: '300'});
+
+            
+                var html_ea08d7ec7e394618afae590b036b7040 = $('<div id="html_ea08d7ec7e394618afae590b036b7040" style="width: 100.0%; height: 100.0%;">Arad, South</div>')[0];
+                popup_7f3400ea8e0d43578fbe79e09bb46b1d.setContent(html_ea08d7ec7e394618afae590b036b7040);
+            
+
+            circle_marker_922db564b356497cadff05a1bbcb3f5e.bindPopup(popup_7f3400ea8e0d43578fbe79e09bb46b1d);
+
+            
+        
+    
+            var circle_marker_4aa915f17e964834b4821cd7c16e1cc3 = L.circleMarker(
+                [32.8486132,35.3358268],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_23672f0a77554bf9acf71d0177fe87fc = L.popup({maxWidth: '300'});
+
+            
+                var html_fe99901e2f5d413cb09fa78601877386 = $('<div id="html_fe99901e2f5d413cb09fa78601877386" style="width: 100.0%; height: 100.0%;">Arraba, North</div>')[0];
+                popup_23672f0a77554bf9acf71d0177fe87fc.setContent(html_fe99901e2f5d413cb09fa78601877386);
+            
+
+            circle_marker_4aa915f17e964834b4821cd7c16e1cc3.bindPopup(popup_23672f0a77554bf9acf71d0177fe87fc);
+
+            
+        
+    
+            var circle_marker_dfbc5b7b2d91429d8c507dd8c395ed51 = L.circleMarker(
+                [31.7977314,34.6529922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_64527a2e6789486ca25aebdeb69bf7e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad9579ca19ef4143885966b16dcaee38 = $('<div id="html_ad9579ca19ef4143885966b16dcaee38" style="width: 100.0%; height: 100.0%;">Ashdod, South</div>')[0];
+                popup_64527a2e6789486ca25aebdeb69bf7e3.setContent(html_ad9579ca19ef4143885966b16dcaee38);
+            
+
+            circle_marker_dfbc5b7b2d91429d8c507dd8c395ed51.bindPopup(popup_64527a2e6789486ca25aebdeb69bf7e3);
+
+            
+        
+    
+            var circle_marker_49a99c54a91949c78f1b9a0bb55c8faa = L.circleMarker(
+                [31.6644874,34.5730157],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_b364c2a81c8b450388de3d85b5972eb7 = L.popup({maxWidth: '300'});
+
+            
+                var html_646071d918184d629d2aa5bcb0b05ff5 = $('<div id="html_646071d918184d629d2aa5bcb0b05ff5" style="width: 100.0%; height: 100.0%;">Ashkelon, South</div>')[0];
+                popup_b364c2a81c8b450388de3d85b5972eb7.setContent(html_646071d918184d629d2aa5bcb0b05ff5);
+            
+
+            circle_marker_49a99c54a91949c78f1b9a0bb55c8faa.bindPopup(popup_b364c2a81c8b450388de3d85b5972eb7);
+
+            
+        
+    
+            var circle_marker_8f6376b3c8b24054a259065d051c7400 = L.circleMarker(
+                [32.0154565,34.7505283],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_9aee295048c14faaabf15d69046d0208 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e02867597ff4ccdb8bf658a11d2e029 = $('<div id="html_9e02867597ff4ccdb8bf658a11d2e029" style="width: 100.0%; height: 100.0%;">Bat Yam, Tel Aviv</div>')[0];
+                popup_9aee295048c14faaabf15d69046d0208.setContent(html_9e02867597ff4ccdb8bf658a11d2e029);
+            
+
+            circle_marker_8f6376b3c8b24054a259065d051c7400.bindPopup(popup_9aee295048c14faaabf15d69046d0208);
+
+            
+        
+    
+            var circle_marker_abe4d706dff34c79908507f5b2e174d3 = L.circleMarker(
+                [31.243798,34.7835916],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_46dc114b1db04f6c9fb1da47c09ff502 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d505e6bd4464505af245efa1dc3ce6b = $('<div id="html_5d505e6bd4464505af245efa1dc3ce6b" style="width: 100.0%; height: 100.0%;">Beersheba, South</div>')[0];
+                popup_46dc114b1db04f6c9fb1da47c09ff502.setContent(html_5d505e6bd4464505af245efa1dc3ce6b);
+            
+
+            circle_marker_abe4d706dff34c79908507f5b2e174d3.bindPopup(popup_46dc114b1db04f6c9fb1da47c09ff502);
+
+            
+        
+    
+            var circle_marker_29854fefcb5248b4b8f635155c970651 = L.circleMarker(
+                [32.4967519,35.4973022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_c90992c452444ce2864093488100f101 = L.popup({maxWidth: '300'});
+
+            
+                var html_608b534e1cdc4822b87db2d6db802fe0 = $('<div id="html_608b534e1cdc4822b87db2d6db802fe0" style="width: 100.0%; height: 100.0%;">Beit She&#39;an, North</div>')[0];
+                popup_c90992c452444ce2864093488100f101.setContent(html_608b534e1cdc4822b87db2d6db802fe0);
+            
+
+            circle_marker_29854fefcb5248b4b8f635155c970651.bindPopup(popup_c90992c452444ce2864093488100f101);
+
+            
+        
+    
+            var circle_marker_7ef6dcae4c374111bfe929c739823d79 = L.circleMarker(
+                [31.746214,34.9886825],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_e241c73aa9a8426ea258a366587cc438 = L.popup({maxWidth: '300'});
+
+            
+                var html_38eb8d6655d24d14a0a84e5ec3a4ab39 = $('<div id="html_38eb8d6655d24d14a0a84e5ec3a4ab39" style="width: 100.0%; height: 100.0%;">Beit Shemesh, Jerusalem</div>')[0];
+                popup_e241c73aa9a8426ea258a366587cc438.setContent(html_38eb8d6655d24d14a0a84e5ec3a4ab39);
+            
+
+            circle_marker_7ef6dcae4c374111bfe929c739823d79.bindPopup(popup_e241c73aa9a8426ea258a366587cc438);
+
+            
+        
+    
+            var circle_marker_9921cba6421f43548d7b4bd0a59d64e1 = L.circleMarker(
+                [32.0873899,34.8324376],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_56d4c33a2500413486fafd412121c96a = L.popup({maxWidth: '300'});
+
+            
+                var html_256b08ca716e40cd9708815c008ca937 = $('<div id="html_256b08ca716e40cd9708815c008ca937" style="width: 100.0%; height: 100.0%;">Bnei Brak, Tel Aviv</div>')[0];
+                popup_56d4c33a2500413486fafd412121c96a.setContent(html_256b08ca716e40cd9708815c008ca937);
+            
+
+            circle_marker_9921cba6421f43548d7b4bd0a59d64e1.bindPopup(popup_56d4c33a2500413486fafd412121c96a);
+
+            
+        
+    
+            var circle_marker_3d571ec8b8624c00819a20f139c225b4 = L.circleMarker(
+                [31.0686612,35.0366482],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_9d8ff9676ae4457cb3938ef2d2849ed3 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc1b1d6fed8b432b8e1877dfbcf408e9 = $('<div id="html_fc1b1d6fed8b432b8e1877dfbcf408e9" style="width: 100.0%; height: 100.0%;">Dimona, South</div>')[0];
+                popup_9d8ff9676ae4457cb3938ef2d2849ed3.setContent(html_fc1b1d6fed8b432b8e1877dfbcf408e9);
+            
+
+            circle_marker_3d571ec8b8624c00819a20f139c225b4.bindPopup(popup_9d8ff9676ae4457cb3938ef2d2849ed3);
+
+            
+        
+    
+            var circle_marker_af6aea0dffe04ef2ba76bcaf85d771a0 = L.circleMarker(
+                [29.5569348,34.9497949],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_cffcc3ffcea346fa8a231fed93ddb8ac = L.popup({maxWidth: '300'});
+
+            
+                var html_8b664a1c766a4107bbbd0bcfb9db09be = $('<div id="html_8b664a1c766a4107bbbd0bcfb9db09be" style="width: 100.0%; height: 100.0%;">Eilat, South</div>')[0];
+                popup_cffcc3ffcea346fa8a231fed93ddb8ac.setContent(html_8b664a1c766a4107bbbd0bcfb9db09be);
+            
+
+            circle_marker_af6aea0dffe04ef2ba76bcaf85d771a0.bindPopup(popup_cffcc3ffcea346fa8a231fed93ddb8ac);
+
+            
+        
+    
+            var circle_marker_b5e4d61e9d3041af988fefb42fc05feb = L.circleMarker(
+                [32.0495306,34.9507087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_2ffd06e5927a4a0b9125be1acdfde07a = L.popup({maxWidth: '300'});
+
+            
+                var html_f7047e0946384d98aafabc75080adeda = $('<div id="html_f7047e0946384d98aafabc75080adeda" style="width: 100.0%; height: 100.0%;">El&#39;ad, Center</div>')[0];
+                popup_2ffd06e5927a4a0b9125be1acdfde07a.setContent(html_f7047e0946384d98aafabc75080adeda);
+            
+
+            circle_marker_b5e4d61e9d3041af988fefb42fc05feb.bindPopup(popup_2ffd06e5927a4a0b9125be1acdfde07a);
+
+            
+        
+    
+            var circle_marker_fd4842bd004c4581ac722303d910cf7c = L.circleMarker(
+                [32.0769463,34.8524656],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_cd8dce8afade452f98921d9f8f23272f = L.popup({maxWidth: '300'});
+
+            
+                var html_856687a8fd544a5e970597989bb1b127 = $('<div id="html_856687a8fd544a5e970597989bb1b127" style="width: 100.0%; height: 100.0%;">Giv&#39;at Shmuel, Center</div>')[0];
+                popup_cd8dce8afade452f98921d9f8f23272f.setContent(html_856687a8fd544a5e970597989bb1b127);
+            
+
+            circle_marker_fd4842bd004c4581ac722303d910cf7c.bindPopup(popup_cd8dce8afade452f98921d9f8f23272f);
+
+            
+        
+    
+            var circle_marker_6633afd84b1b44b8b8e318e81550f5e5 = L.circleMarker(
+                [32.0729606,34.8113279],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_c72e02fb41f14d46bab0b811665b2355 = L.popup({maxWidth: '300'});
+
+            
+                var html_0c2ffaf63659472aae0ee0faad24b6e6 = $('<div id="html_0c2ffaf63659472aae0ee0faad24b6e6" style="width: 100.0%; height: 100.0%;">Givatayim, Tel Aviv</div>')[0];
+                popup_c72e02fb41f14d46bab0b811665b2355.setContent(html_0c2ffaf63659472aae0ee0faad24b6e6);
+            
+
+            circle_marker_6633afd84b1b44b8b8e318e81550f5e5.bindPopup(popup_c72e02fb41f14d46bab0b811665b2355);
+
+            
+        
+    
+            var circle_marker_99a4e2b05e3b4464b4c740113e354933 = L.circleMarker(
+                [32.43699,34.9198258],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_845146c45e9c4018bc21ac4d139f9ff1 = L.popup({maxWidth: '300'});
+
+            
+                var html_c07d8f3f8eb94cd597f0a44754d7e136 = $('<div id="html_c07d8f3f8eb94cd597f0a44754d7e136" style="width: 100.0%; height: 100.0%;">Hadera, Haifa</div>')[0];
+                popup_845146c45e9c4018bc21ac4d139f9ff1.setContent(html_c07d8f3f8eb94cd597f0a44754d7e136);
+            
+
+            circle_marker_99a4e2b05e3b4464b4c740113e354933.bindPopup(popup_845146c45e9c4018bc21ac4d139f9ff1);
+
+            
+        
+    
+            var circle_marker_5c9b73bbe7d54f10b70f9521f1b70a22 = L.circleMarker(
+                [32.8191218,34.9983856],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_433bc0947ed74936b45fae7d18a9eac2 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8701390856e424ea0563b53c4518b45 = $('<div id="html_c8701390856e424ea0563b53c4518b45" style="width: 100.0%; height: 100.0%;">Haifa, Haifa</div>')[0];
+                popup_433bc0947ed74936b45fae7d18a9eac2.setContent(html_c8701390856e424ea0563b53c4518b45);
+            
+
+            circle_marker_5c9b73bbe7d54f10b70f9521f1b70a22.bindPopup(popup_433bc0947ed74936b45fae7d18a9eac2);
+
+            
+        
+    
+            var circle_marker_cffcf5ff6cce4a6187ffa79b1e1fa82c = L.circleMarker(
+                [32.1720339,34.8309984],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_529cd6efddd34e1683abe07109746de5 = L.popup({maxWidth: '300'});
+
+            
+                var html_d19e2f5ebb454556b16b0ee35f4cf7a0 = $('<div id="html_d19e2f5ebb454556b16b0ee35f4cf7a0" style="width: 100.0%; height: 100.0%;">Herzliya, Tel Aviv</div>')[0];
+                popup_529cd6efddd34e1683abe07109746de5.setContent(html_d19e2f5ebb454556b16b0ee35f4cf7a0);
+            
+
+            circle_marker_cffcf5ff6cce4a6187ffa79b1e1fa82c.bindPopup(popup_529cd6efddd34e1683abe07109746de5);
+
+            
+        
+    
+            var circle_marker_ff606155acc9402ea651c61aa06f1e75 = L.circleMarker(
+                [32.1561974,34.8930354],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_631fab0f73dd46e7b8f770e18ad213f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_d63d0c76292245d194d67b57a964897d = $('<div id="html_d63d0c76292245d194d67b57a964897d" style="width: 100.0%; height: 100.0%;">Hod HaSharon, Center</div>')[0];
+                popup_631fab0f73dd46e7b8f770e18ad213f4.setContent(html_d63d0c76292245d194d67b57a964897d);
+            
+
+            circle_marker_ff606155acc9402ea651c61aa06f1e75.bindPopup(popup_631fab0f73dd46e7b8f770e18ad213f4);
+
+            
+        
+    
+            var circle_marker_91c67c837595459b8940451a782fb0a3 = L.circleMarker(
+                [32.0193121,34.7804076],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_70b6bc266c5f43cea848a4d0ccfbc1d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b7dca90ccdf4e3792eca5fded51a2b1 = $('<div id="html_6b7dca90ccdf4e3792eca5fded51a2b1" style="width: 100.0%; height: 100.0%;">Holon, Tel Aviv</div>')[0];
+                popup_70b6bc266c5f43cea848a4d0ccfbc1d5.setContent(html_6b7dca90ccdf4e3792eca5fded51a2b1);
+            
+
+            circle_marker_91c67c837595459b8940451a782fb0a3.bindPopup(popup_70b6bc266c5f43cea848a4d0ccfbc1d5);
+
+            
+        
+    
+            var circle_marker_f4b3b8186b234029ad48716212274096 = L.circleMarker(
+                [31.778345,35.2250786],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_bdf8f6d76fe74d35adcbc00e95a5b608 = L.popup({maxWidth: '300'});
+
+            
+                var html_b40a874e278e45c58a9b7f9f2073da41 = $('<div id="html_b40a874e278e45c58a9b7f9f2073da41" style="width: 100.0%; height: 100.0%;">Jerusalem, Jerusalem</div>')[0];
+                popup_bdf8f6d76fe74d35adcbc00e95a5b608.setContent(html_b40a874e278e45c58a9b7f9f2073da41);
+            
+
+            circle_marker_f4b3b8186b234029ad48716212274096.bindPopup(popup_bdf8f6d76fe74d35adcbc00e95a5b608);
+
+            
+        
+    
+            var circle_marker_4c1c3cff0a8b43b69d7baef749ce9009 = L.circleMarker(
+                [32.1139357,34.9760002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_941aadb8e5b64c61abdffaabae4399c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_32aed9de4cd34fe4a65bb3bcb6872dc3 = $('<div id="html_32aed9de4cd34fe4a65bb3bcb6872dc3" style="width: 100.0%; height: 100.0%;">Kafr Qasim, Center</div>')[0];
+                popup_941aadb8e5b64c61abdffaabae4399c4.setContent(html_32aed9de4cd34fe4a65bb3bcb6872dc3);
+            
+
+            circle_marker_4c1c3cff0a8b43b69d7baef749ce9009.bindPopup(popup_941aadb8e5b64c61abdffaabae4399c4);
+
+            
+        
+    
+            var circle_marker_81e834f0e3954045b7aa821fdf82362c = L.circleMarker(
+                [32.9159104,35.293429],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_e977d9ebcfa34e2f9f8f674f2ed07a3f = L.popup({maxWidth: '300'});
+
+            
+                var html_af0820a3d29a4b579a76519c81d0b7b2 = $('<div id="html_af0820a3d29a4b579a76519c81d0b7b2" style="width: 100.0%; height: 100.0%;">Karmiel, North</div>')[0];
+                popup_e977d9ebcfa34e2f9f8f674f2ed07a3f.setContent(html_af0820a3d29a4b579a76519c81d0b7b2);
+            
+
+            circle_marker_81e834f0e3954045b7aa821fdf82362c.bindPopup(popup_e977d9ebcfa34e2f9f8f674f2ed07a3f);
+
+            
+        
+    
+            var circle_marker_0bf162a813ab41e6ad65151999ad41a2 = L.circleMarker(
+                [32.1773471,34.907459],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_1924a95f7a9a43b2999900426d22eb80 = L.popup({maxWidth: '300'});
+
+            
+                var html_adecdb97879f4b53955f8bc9ba315569 = $('<div id="html_adecdb97879f4b53955f8bc9ba315569" style="width: 100.0%; height: 100.0%;">Kfar Saba, Center</div>')[0];
+                popup_1924a95f7a9a43b2999900426d22eb80.setContent(html_adecdb97879f4b53955f8bc9ba315569);
+            
+
+            circle_marker_0bf162a813ab41e6ad65151999ad41a2.bindPopup(popup_1924a95f7a9a43b2999900426d22eb80);
+
+            
+        
+    
+            var circle_marker_b401847203fe4569805f42184a86ac68 = L.circleMarker(
+                [32.314504,34.9321169],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_3ff6d89f446640558581e59855b8c5e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd74bbe605e34c238cb5142cde765b78 = $('<div id="html_fd74bbe605e34c238cb5142cde765b78" style="width: 100.0%; height: 100.0%;">Kfar Yona, Center</div>')[0];
+                popup_3ff6d89f446640558581e59855b8c5e2.setContent(html_fd74bbe605e34c238cb5142cde765b78);
+            
+
+            circle_marker_b401847203fe4569805f42184a86ac68.bindPopup(popup_3ff6d89f446640558581e59855b8c5e2);
+
+            
+        
+    
+            var circle_marker_7b9dc9802b554aa996690ad15cbb2ff8 = L.circleMarker(
+                [32.8115779,35.1163659],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_bafa800174604a5793d5449406b6d276 = L.popup({maxWidth: '300'});
+
+            
+                var html_d7f7f920e27b4f058c6d87b05f460b8a = $('<div id="html_d7f7f920e27b4f058c6d87b05f460b8a" style="width: 100.0%; height: 100.0%;">Kiryat Ata, Haifa</div>')[0];
+                popup_bafa800174604a5793d5449406b6d276.setContent(html_d7f7f920e27b4f058c6d87b05f460b8a);
+            
+
+            circle_marker_7b9dc9802b554aa996690ad15cbb2ff8.bindPopup(popup_bafa800174604a5793d5449406b6d276);
+
+            
+        
+    
+            var circle_marker_80e9bb6320b04c6783e280dd6d6781ee = L.circleMarker(
+                [32.842034,35.1004081],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_4eca97e4dadf4928a214a889f8d33fa6 = L.popup({maxWidth: '300'});
+
+            
+                var html_695090c557694efda2d28e148e4b9840 = $('<div id="html_695090c557694efda2d28e148e4b9840" style="width: 100.0%; height: 100.0%;">Kiryat Bialik, Haifa</div>')[0];
+                popup_4eca97e4dadf4928a214a889f8d33fa6.setContent(html_695090c557694efda2d28e148e4b9840);
+            
+
+            circle_marker_80e9bb6320b04c6783e280dd6d6781ee.bindPopup(popup_4eca97e4dadf4928a214a889f8d33fa6);
+
+            
+        
+    
+            var circle_marker_c7a1fb21f60240c09ac343817d548739 = L.circleMarker(
+                [31.6031494,34.7779274],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_29ff75d0268c429b9e245956540188bc = L.popup({maxWidth: '300'});
+
+            
+                var html_bc9c496a80d845cab704c806f8d6c6a0 = $('<div id="html_bc9c496a80d845cab704c806f8d6c6a0" style="width: 100.0%; height: 100.0%;">Kiryat Gat, South</div>')[0];
+                popup_29ff75d0268c429b9e245956540188bc.setContent(html_bc9c496a80d845cab704c806f8d6c6a0);
+            
+
+            circle_marker_c7a1fb21f60240c09ac343817d548739.bindPopup(popup_29ff75d0268c429b9e245956540188bc);
+
+            
+        
+    
+            var circle_marker_b7af1bf4e8144505818d7856a9a8feab = L.circleMarker(
+                [31.7314672,34.74348],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_0048b93a6e494289b3695c850cbfaaab = L.popup({maxWidth: '300'});
+
+            
+                var html_9929c03094464e56ad4609ed4fd02340 = $('<div id="html_9929c03094464e56ad4609ed4fd02340" style="width: 100.0%; height: 100.0%;">Kiryat Malakhi, South</div>')[0];
+                popup_0048b93a6e494289b3695c850cbfaaab.setContent(html_9929c03094464e56ad4609ed4fd02340);
+            
+
+            circle_marker_b7af1bf4e8144505818d7856a9a8feab.bindPopup(popup_0048b93a6e494289b3695c850cbfaaab);
+
+            
+        
+    
+            var circle_marker_5ed6d6baaac14311afc07858189631b8 = L.circleMarker(
+                [32.8445617,35.0843164],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_6cbc85b46e0c4994b5447d79eb541266 = L.popup({maxWidth: '300'});
+
+            
+                var html_9310ab7b88444385a744d402af5ccc40 = $('<div id="html_9310ab7b88444385a744d402af5ccc40" style="width: 100.0%; height: 100.0%;">Kiryat Motzkin, Haifa</div>')[0];
+                popup_6cbc85b46e0c4994b5447d79eb541266.setContent(html_9310ab7b88444385a744d402af5ccc40);
+            
+
+            circle_marker_5ed6d6baaac14311afc07858189631b8.bindPopup(popup_6cbc85b46e0c4994b5447d79eb541266);
+
+            
+        
+    
+            var circle_marker_0e14671ebb534a59837d7defcfd46611 = L.circleMarker(
+                [32.0591691,34.8594303],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_17a4bdc2884142de8b08963a0c67486c = L.popup({maxWidth: '300'});
+
+            
+                var html_afc05003e94a4c41b06c996dec97b0ea = $('<div id="html_afc05003e94a4c41b06c996dec97b0ea" style="width: 100.0%; height: 100.0%;">Kiryat Ono, Tel Aviv</div>')[0];
+                popup_17a4bdc2884142de8b08963a0c67486c.setContent(html_afc05003e94a4c41b06c996dec97b0ea);
+            
+
+            circle_marker_0e14671ebb534a59837d7defcfd46611.bindPopup(popup_17a4bdc2884142de8b08963a0c67486c);
+
+            
+        
+    
+            var circle_marker_d019e9b60e2949c1b23432bd035010f7 = L.circleMarker(
+                [33.2074733,35.5707828],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_75ccab38db1a461587acf8edd0be7d2a = L.popup({maxWidth: '300'});
+
+            
+                var html_7bf862ebaeca4c559f98e64a5816e9bf = $('<div id="html_7bf862ebaeca4c559f98e64a5816e9bf" style="width: 100.0%; height: 100.0%;">Kiryat Shmona, North</div>')[0];
+                popup_75ccab38db1a461587acf8edd0be7d2a.setContent(html_7bf862ebaeca4c559f98e64a5816e9bf);
+            
+
+            circle_marker_d019e9b60e2949c1b23432bd035010f7.bindPopup(popup_75ccab38db1a461587acf8edd0be7d2a);
+
+            
+        
+    
+            var circle_marker_a83dac65045a46a49e694ce55ec99d87 = L.circleMarker(
+                [32.862177,35.0788881],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_75851d9e53544a9183038f4d2ce7b6cf = L.popup({maxWidth: '300'});
+
+            
+                var html_95d2478d70744c3ebc1ceda17ed01855 = $('<div id="html_95d2478d70744c3ebc1ceda17ed01855" style="width: 100.0%; height: 100.0%;">Kiryat Yam, Haifa</div>')[0];
+                popup_75851d9e53544a9183038f4d2ce7b6cf.setContent(html_95d2478d70744c3ebc1ceda17ed01855);
+            
+
+            circle_marker_a83dac65045a46a49e694ce55ec99d87.bindPopup(popup_75851d9e53544a9183038f4d2ce7b6cf);
+
+            
+        
+    
+            var circle_marker_be093df5bdcd4f42b968bdcb58b0b10b = L.circleMarker(
+                [31.9489012,34.8884857],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_0d109bcddd9f41cb859d31fdcfaebae0 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6903bb8f8e4462ea8fbc1aab07946d0 = $('<div id="html_f6903bb8f8e4462ea8fbc1aab07946d0" style="width: 100.0%; height: 100.0%;">Lod, Center</div>')[0];
+                popup_0d109bcddd9f41cb859d31fdcfaebae0.setContent(html_f6903bb8f8e4462ea8fbc1aab07946d0);
+            
+
+            circle_marker_be093df5bdcd4f42b968bdcb58b0b10b.bindPopup(popup_0d109bcddd9f41cb859d31fdcfaebae0);
+
+            
+        
+    
+            var circle_marker_baa6d70f7eee448ea2fd6d60ae0dcec1 = L.circleMarker(
+                [33.0157394,35.2759666],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_53c98225f9584c3ca79d68466fde09cf = L.popup({maxWidth: '300'});
+
+            
+                var html_2e5368c2131c484f981c7c1430a9e3c3 = $('<div id="html_2e5368c2131c484f981c7c1430a9e3c3" style="width: 100.0%; height: 100.0%;">Ma&#39;alot-Tarshiha, North</div>')[0];
+                popup_53c98225f9584c3ca79d68466fde09cf.setContent(html_2e5368c2131c484f981c7c1430a9e3c3);
+            
+
+            circle_marker_baa6d70f7eee448ea2fd6d60ae0dcec1.bindPopup(popup_53c98225f9584c3ca79d68466fde09cf);
+
+            
+        
+    
+            var circle_marker_848420c198a844d891016245ce26bd02 = L.circleMarker(
+                [32.6765744,35.2413237],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_2f6c38a625d7497e83b6b55d0c4578a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c8cea4ac23d431aa5ca6bd709a057b3 = $('<div id="html_5c8cea4ac23d431aa5ca6bd709a057b3" style="width: 100.0%; height: 100.0%;">Migdal HaEmek, North</div>')[0];
+                popup_2f6c38a625d7497e83b6b55d0c4578a3.setContent(html_5c8cea4ac23d431aa5ca6bd709a057b3);
+            
+
+            circle_marker_848420c198a844d891016245ce26bd02.bindPopup(popup_2f6c38a625d7497e83b6b55d0c4578a3);
+
+            
+        
+    
+            var circle_marker_d28b079fa0044e7dafb4b7c4900e9c5c = L.circleMarker(
+                [31.9085744,35.0069297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_91e722012e9343d5a6ae3205c75aba56 = L.popup({maxWidth: '300'});
+
+            
+                var html_26f0eb45a07647aab1576c45093d33ff = $('<div id="html_26f0eb45a07647aab1576c45093d33ff" style="width: 100.0%; height: 100.0%;">Modi&#39;in-Maccabim-Re&#39;ut, Center</div>')[0];
+                popup_91e722012e9343d5a6ae3205c75aba56.setContent(html_26f0eb45a07647aab1576c45093d33ff);
+            
+
+            circle_marker_d28b079fa0044e7dafb4b7c4900e9c5c.bindPopup(popup_91e722012e9343d5a6ae3205c75aba56);
+
+            
+        
+    
+            var circle_marker_3f349cffa6e74cb8bdc0826339e43666 = L.circleMarker(
+                [33.006306,35.0945579],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_c290731dd0ff4d5681d6a969483a462f = L.popup({maxWidth: '300'});
+
+            
+                var html_21547ddc50b343808eb0aefd84be6404 = $('<div id="html_21547ddc50b343808eb0aefd84be6404" style="width: 100.0%; height: 100.0%;">Nahariya, North</div>')[0];
+                popup_c290731dd0ff4d5681d6a969483a462f.setContent(html_21547ddc50b343808eb0aefd84be6404);
+            
+
+            circle_marker_3f349cffa6e74cb8bdc0826339e43666.bindPopup(popup_c290731dd0ff4d5681d6a969483a462f);
+
+            
+        
+    
+            var circle_marker_72e4babbf19644bc9a7863f5ee054ae8 = L.circleMarker(
+                [32.7066301,35.3048161],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_c9603893861245f4bd3e17e0c8e4d813 = L.popup({maxWidth: '300'});
+
+            
+                var html_e3c5dd525e20468381e413b67198aea6 = $('<div id="html_e3c5dd525e20468381e413b67198aea6" style="width: 100.0%; height: 100.0%;">Nazareth, North</div>')[0];
+                popup_c9603893861245f4bd3e17e0c8e4d813.setContent(html_e3c5dd525e20468381e413b67198aea6);
+            
+
+            circle_marker_72e4babbf19644bc9a7863f5ee054ae8.bindPopup(popup_c9603893861245f4bd3e17e0c8e4d813);
+
+            
+        
+    
+            var circle_marker_545eaf556cc949eeacc8366ae7c3f15f = L.circleMarker(
+                [32.7708797,35.0381249],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_2717216865fa4250a791fe17c6424085 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea83d9c9dff24b08936701ac3b2a4753 = $('<div id="html_ea83d9c9dff24b08936701ac3b2a4753" style="width: 100.0%; height: 100.0%;">Nesher, Haifa</div>')[0];
+                popup_2717216865fa4250a791fe17c6424085.setContent(html_ea83d9c9dff24b08936701ac3b2a4753);
+            
+
+            circle_marker_545eaf556cc949eeacc8366ae7c3f15f.bindPopup(popup_2717216865fa4250a791fe17c6424085);
+
+            
+        
+    
+            var circle_marker_db59b116ed90488fb3bf9ebc575f7c2a = L.circleMarker(
+                [31.9295577,34.7990609],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_7b7f90b9f0eb499da4fdd59df0319205 = L.popup({maxWidth: '300'});
+
+            
+                var html_082c8b1e233d4f21b1859e0378923f27 = $('<div id="html_082c8b1e233d4f21b1859e0378923f27" style="width: 100.0%; height: 100.0%;">Ness Ziona, Center</div>')[0];
+                popup_7b7f90b9f0eb499da4fdd59df0319205.setContent(html_082c8b1e233d4f21b1859e0378923f27);
+            
+
+            circle_marker_db59b116ed90488fb3bf9ebc575f7c2a.bindPopup(popup_7b7f90b9f0eb499da4fdd59df0319205);
+
+            
+        
+    
+            var circle_marker_85573b7175e84f1e98f22efa61f86581 = L.circleMarker(
+                [32.3286181,34.8566246],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_049e1b0fce3e43848c5a2077da8b499c = L.popup({maxWidth: '300'});
+
+            
+                var html_2bf57edace1041bcba8a052a83e94e70 = $('<div id="html_2bf57edace1041bcba8a052a83e94e70" style="width: 100.0%; height: 100.0%;">Netanya, Center</div>')[0];
+                popup_049e1b0fce3e43848c5a2077da8b499c.setContent(html_2bf57edace1041bcba8a052a83e94e70);
+            
+
+            circle_marker_85573b7175e84f1e98f22efa61f86581.bindPopup(popup_049e1b0fce3e43848c5a2077da8b499c);
+
+            
+        
+    
+            var circle_marker_93a4f3a740d5494cab262c9566dfb46d = L.circleMarker(
+                [31.4213546,34.5884252],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_8ce4be1ccbfa43fbbad4c28a347be517 = L.popup({maxWidth: '300'});
+
+            
+                var html_521f85994767420a8a7d9b9397ac1b9d = $('<div id="html_521f85994767420a8a7d9b9397ac1b9d" style="width: 100.0%; height: 100.0%;">Netivot, South</div>')[0];
+                popup_8ce4be1ccbfa43fbbad4c28a347be517.setContent(html_521f85994767420a8a7d9b9397ac1b9d);
+            
+
+            circle_marker_93a4f3a740d5494cab262c9566dfb46d.bindPopup(popup_8ce4be1ccbfa43fbbad4c28a347be517);
+
+            
+        
+    
+            var circle_marker_305de64359c840e0ad333283135bb456 = L.circleMarker(
+                [32.7023065,35.3183216],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_b28186e3d1cc459db6d0dfe91934a280 = L.popup({maxWidth: '300'});
+
+            
+                var html_998fd8697d37475e83f2e4522ba27aaa = $('<div id="html_998fd8697d37475e83f2e4522ba27aaa" style="width: 100.0%; height: 100.0%;">Nof HaGalil, North</div>')[0];
+                popup_b28186e3d1cc459db6d0dfe91934a280.setContent(html_998fd8697d37475e83f2e4522ba27aaa);
+            
+
+            circle_marker_305de64359c840e0ad333283135bb456.bindPopup(popup_b28186e3d1cc459db6d0dfe91934a280);
+
+            
+        
+    
+            var circle_marker_842b3b7cb9a34aa6bb74cf34cbe9ea9a = L.circleMarker(
+                [31.3125831,34.6208537],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_fa9a60441fbd467ca85fe17f47133d92 = L.popup({maxWidth: '300'});
+
+            
+                var html_54cd2a2b40c54799b63fc994432d138e = $('<div id="html_54cd2a2b40c54799b63fc994432d138e" style="width: 100.0%; height: 100.0%;">Ofakim, South</div>')[0];
+                popup_fa9a60441fbd467ca85fe17f47133d92.setContent(html_54cd2a2b40c54799b63fc994432d138e);
+            
+
+            circle_marker_842b3b7cb9a34aa6bb74cf34cbe9ea9a.bindPopup(popup_fa9a60441fbd467ca85fe17f47133d92);
+
+            
+        
+    
+            var circle_marker_b26ff3bb1e024abdb66f8557229c99d4 = L.circleMarker(
+                [32.5090151,34.9195677],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_4b64ed6aab964f5387ddf1bba4704699 = L.popup({maxWidth: '300'});
+
+            
+                var html_6be2c39a70ca470aa441e982247fd3c2 = $('<div id="html_6be2c39a70ca470aa441e982247fd3c2" style="width: 100.0%; height: 100.0%;">Or Akiva, Haifa</div>')[0];
+                popup_4b64ed6aab964f5387ddf1bba4704699.setContent(html_6be2c39a70ca470aa441e982247fd3c2);
+            
+
+            circle_marker_b26ff3bb1e024abdb66f8557229c99d4.bindPopup(popup_4b64ed6aab964f5387ddf1bba4704699);
+
+            
+        
+    
+            var circle_marker_b51112614e8c4b5eaa4920da6712ff84 = L.circleMarker(
+                [32.0309712,34.8523936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_cb2cba9ce7b147d7ad76f51889bd22aa = L.popup({maxWidth: '300'});
+
+            
+                var html_7ba7610157e844d9af48c686f8250588 = $('<div id="html_7ba7610157e844d9af48c686f8250588" style="width: 100.0%; height: 100.0%;">Or Yehuda, Tel Aviv</div>')[0];
+                popup_cb2cba9ce7b147d7ad76f51889bd22aa.setContent(html_7ba7610157e844d9af48c686f8250588);
+            
+
+            circle_marker_b51112614e8c4b5eaa4920da6712ff84.bindPopup(popup_cb2cba9ce7b147d7ad76f51889bd22aa);
+
+            
+        
+    
+            var circle_marker_3589644beeff4b25b570f2128656eb47 = L.circleMarker(
+                [32.0877639,34.8859985],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_19fe016ef2ee47298b3c61c7d4ebf5d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_bc2bf8a534f8407d84147f9ca57291fd = $('<div id="html_bc2bf8a534f8407d84147f9ca57291fd" style="width: 100.0%; height: 100.0%;">Petah Tikva, Center</div>')[0];
+                popup_19fe016ef2ee47298b3c61c7d4ebf5d1.setContent(html_bc2bf8a534f8407d84147f9ca57291fd);
+            
+
+            circle_marker_3589644beeff4b25b570f2128656eb47.bindPopup(popup_19fe016ef2ee47298b3c61c7d4ebf5d1);
+
+            
+        
+    
+            var circle_marker_e4dd3bca66fc4914be09e26b8a866dbc = L.circleMarker(
+                [31.5,34.75],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_8d6111f7bcbd432d950f3089aeb62d89 = L.popup({maxWidth: '300'});
+
+            
+                var html_08b8b04fbda54ef2adba6cb6e286481d = $('<div id="html_08b8b04fbda54ef2adba6cb6e286481d" style="width: 100.0%; height: 100.0%;">Qalansawe, Center</div>')[0];
+                popup_8d6111f7bcbd432d950f3089aeb62d89.setContent(html_08b8b04fbda54ef2adba6cb6e286481d);
+            
+
+            circle_marker_e4dd3bca66fc4914be09e26b8a866dbc.bindPopup(popup_8d6111f7bcbd432d950f3089aeb62d89);
+
+            
+        
+    
+            var circle_marker_e6348dea31334affa7ec385d9b0d76fb = L.circleMarker(
+                [32.1861481,34.8675905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_7823df0b30094ceeb71ec1efde5e8e7b = L.popup({maxWidth: '300'});
+
+            
+                var html_b92f5cde516c467b9e68f23cf663b501 = $('<div id="html_b92f5cde516c467b9e68f23cf663b501" style="width: 100.0%; height: 100.0%;">Ra&#39;anana, Center</div>')[0];
+                popup_7823df0b30094ceeb71ec1efde5e8e7b.setContent(html_b92f5cde516c467b9e68f23cf663b501);
+            
+
+            circle_marker_e6348dea31334affa7ec385d9b0d76fb.bindPopup(popup_7823df0b30094ceeb71ec1efde5e8e7b);
+
+            
+        
+    
+            var circle_marker_6f2871e03f2d4a83af5a12b35d412d92 = L.circleMarker(
+                [31.3932933,34.7547693],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_0a8f508c22944ff4a28ab4ba60853f46 = L.popup({maxWidth: '300'});
+
+            
+                var html_69008ab75d9146e8995cd71205536054 = $('<div id="html_69008ab75d9146e8995cd71205536054" style="width: 100.0%; height: 100.0%;">Rahat, South</div>')[0];
+                popup_0a8f508c22944ff4a28ab4ba60853f46.setContent(html_69008ab75d9146e8995cd71205536054);
+            
+
+            circle_marker_6f2871e03f2d4a83af5a12b35d412d92.bindPopup(popup_0a8f508c22944ff4a28ab4ba60853f46);
+
+            
+        
+    
+            var circle_marker_12674882cbf9439e914eb870e2ef3500 = L.circleMarker(
+                [32.0686867,34.8246812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_fdec42da09ba4b5f9276b6c8df5e565d = L.popup({maxWidth: '300'});
+
+            
+                var html_16a84d41240442139aec0b83817cc84d = $('<div id="html_16a84d41240442139aec0b83817cc84d" style="width: 100.0%; height: 100.0%;">Ramat Gan, Tel Aviv</div>')[0];
+                popup_fdec42da09ba4b5f9276b6c8df5e565d.setContent(html_16a84d41240442139aec0b83817cc84d);
+            
+
+            circle_marker_12674882cbf9439e914eb870e2ef3500.bindPopup(popup_fdec42da09ba4b5f9276b6c8df5e565d);
+
+            
+        
+    
+            var circle_marker_b569a9b4086246e49dbbea5269034188 = L.circleMarker(
+                [32.1431276,34.8380853],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_08d0a7614f0b4708a3a3d58acedfce02 = L.popup({maxWidth: '300'});
+
+            
+                var html_24d1fc94ff384c138534c72920111385 = $('<div id="html_24d1fc94ff384c138534c72920111385" style="width: 100.0%; height: 100.0%;">Ramat HaSharon, Tel Aviv</div>')[0];
+                popup_08d0a7614f0b4708a3a3d58acedfce02.setContent(html_24d1fc94ff384c138534c72920111385);
+            
+
+            circle_marker_b569a9b4086246e49dbbea5269034188.bindPopup(popup_08d0a7614f0b4708a3a3d58acedfce02);
+
+            
+        
+    
+            var circle_marker_92cc3bb6bb9d42e3aa4fadade8616525 = L.circleMarker(
+                [31.9279988,34.8623473],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_95c579b9ec654f9cb6ad9443d651359b = L.popup({maxWidth: '300'});
+
+            
+                var html_104bdd8b48104985957733b8501787aa = $('<div id="html_104bdd8b48104985957733b8501787aa" style="width: 100.0%; height: 100.0%;">Ramla, Center</div>')[0];
+                popup_95c579b9ec654f9cb6ad9443d651359b.setContent(html_104bdd8b48104985957733b8501787aa);
+            
+
+            circle_marker_92cc3bb6bb9d42e3aa4fadade8616525.bindPopup(popup_95c579b9ec654f9cb6ad9443d651359b);
+
+            
+        
+    
+            var circle_marker_468950d7a9c24e7cb9db12a64207a420 = L.circleMarker(
+                [31.8952532,34.8105616],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_b153e0dad4794f5c98ffa47760e852d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_d5b833f77dfe452d99f5c4fd5678dfc8 = $('<div id="html_d5b833f77dfe452d99f5c4fd5678dfc8" style="width: 100.0%; height: 100.0%;">Rehovot, Center</div>')[0];
+                popup_b153e0dad4794f5c98ffa47760e852d1.setContent(html_d5b833f77dfe452d99f5c4fd5678dfc8);
+            
+
+            circle_marker_468950d7a9c24e7cb9db12a64207a420.bindPopup(popup_b153e0dad4794f5c98ffa47760e852d1);
+
+            
+        
+    
+            var circle_marker_d312a88d8bf4446aa1e617c870564d81 = L.circleMarker(
+                [31.9635712,34.8101149],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_959d7865122d4d4f905db3abbf99f2ac = L.popup({maxWidth: '300'});
+
+            
+                var html_5580399e06c5485fbc866746636ac436 = $('<div id="html_5580399e06c5485fbc866746636ac436" style="width: 100.0%; height: 100.0%;">Rishon LeZion, Center</div>')[0];
+                popup_959d7865122d4d4f905db3abbf99f2ac.setContent(html_5580399e06c5485fbc866746636ac436);
+            
+
+            circle_marker_d312a88d8bf4446aa1e617c870564d81.bindPopup(popup_959d7865122d4d4f905db3abbf99f2ac);
+
+            
+        
+    
+            var circle_marker_0c3b34785d5f48608473962f2f8160a9 = L.circleMarker(
+                [32.0952929,34.9533225],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_37205741a1354838b1481be3545c3e72 = L.popup({maxWidth: '300'});
+
+            
+                var html_76fbc5ac075245338a85b611e3b90ce9 = $('<div id="html_76fbc5ac075245338a85b611e3b90ce9" style="width: 100.0%; height: 100.0%;">Rosh HaAyin, Center</div>')[0];
+                popup_37205741a1354838b1481be3545c3e72.setContent(html_76fbc5ac075245338a85b611e3b90ce9);
+            
+
+            circle_marker_0c3b34785d5f48608473962f2f8160a9.bindPopup(popup_37205741a1354838b1481be3545c3e72);
+
+            
+        
+    
+            var circle_marker_803aad7a741d4f5bb0e688d43b89e5b1 = L.circleMarker(
+                [32.9646301,35.502451],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_6448c35efadd49b787babd6120c09020 = L.popup({maxWidth: '300'});
+
+            
+                var html_0186d2874a464adcb62d67384ebd27b5 = $('<div id="html_0186d2874a464adcb62d67384ebd27b5" style="width: 100.0%; height: 100.0%;">Safed, North</div>')[0];
+                popup_6448c35efadd49b787babd6120c09020.setContent(html_0186d2874a464adcb62d67384ebd27b5);
+            
+
+            circle_marker_803aad7a741d4f5bb0e688d43b89e5b1.bindPopup(popup_6448c35efadd49b787babd6120c09020);
+
+            
+        
+    
+            var circle_marker_9c2961c8387f47199998faf1dfb9b6d2 = L.circleMarker(
+                [32.8638052,35.3023184],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_ed5cf63a403b4ccdaa6f5c59ad9d1f38 = L.popup({maxWidth: '300'});
+
+            
+                var html_3c9e5ef32a7f4704860a545cf8f814a9 = $('<div id="html_3c9e5ef32a7f4704860a545cf8f814a9" style="width: 100.0%; height: 100.0%;">Sakhnin, North</div>')[0];
+                popup_ed5cf63a403b4ccdaa6f5c59ad9d1f38.setContent(html_3c9e5ef32a7f4704860a545cf8f814a9);
+            
+
+            circle_marker_9c2961c8387f47199998faf1dfb9b6d2.bindPopup(popup_ed5cf63a403b4ccdaa6f5c59ad9d1f38);
+
+            
+        
+    
+            var circle_marker_c2b1b71600f04fdba7b3e5270ff1d555 = L.circleMarker(
+                [31.526474,34.5969696],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_b80562a1a9ea49bc8c087df72b8b2018 = L.popup({maxWidth: '300'});
+
+            
+                var html_918d1589735b4126b35360d90a742ea6 = $('<div id="html_918d1589735b4126b35360d90a742ea6" style="width: 100.0%; height: 100.0%;">Sderot, South</div>')[0];
+                popup_b80562a1a9ea49bc8c087df72b8b2018.setContent(html_918d1589735b4126b35360d90a742ea6);
+            
+
+            circle_marker_c2b1b71600f04fdba7b3e5270ff1d555.bindPopup(popup_b80562a1a9ea49bc8c087df72b8b2018);
+
+            
+        
+    
+            var circle_marker_ba623428945542f3b3d3b9d667c30607 = L.circleMarker(
+                [32.8045765,35.1723866],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_5829dcfcf44940edbadb739adf6d0b2e = L.popup({maxWidth: '300'});
+
+            
+                var html_0a7d7bd0c5204b08bf8ba2bf4149a4dd = $('<div id="html_0a7d7bd0c5204b08bf8ba2bf4149a4dd" style="width: 100.0%; height: 100.0%;">Shefa-&#39;Amr, North</div>')[0];
+                popup_5829dcfcf44940edbadb739adf6d0b2e.setContent(html_0a7d7bd0c5204b08bf8ba2bf4149a4dd);
+            
+
+            circle_marker_ba623428945542f3b3d3b9d667c30607.bindPopup(popup_5829dcfcf44940edbadb739adf6d0b2e);
+
+            
+        
+    
+            var circle_marker_bb76d7a6326647098fce44762c77837c = L.circleMarker(
+                [32.8534876,35.1978748],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_834b9216e5aa49a2a3a2c1dce10f3a47 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d9b5619980149059af7a08e86fa6cac = $('<div id="html_3d9b5619980149059af7a08e86fa6cac" style="width: 100.0%; height: 100.0%;">Tamra, North</div>')[0];
+                popup_834b9216e5aa49a2a3a2c1dce10f3a47.setContent(html_3d9b5619980149059af7a08e86fa6cac);
+            
+
+            circle_marker_bb76d7a6326647098fce44762c77837c.bindPopup(popup_834b9216e5aa49a2a3a2c1dce10f3a47);
+
+            
+        
+    
+            var circle_marker_304c2aef01a44b268d041c154ff075c5 = L.circleMarker(
+                [32.2615315,35.0021769],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_a97b3d3ea83e43d09e5e3171d3149fba = L.popup({maxWidth: '300'});
+
+            
+                var html_d21a703f872d487d8c052a8bd17a460c = $('<div id="html_d21a703f872d487d8c052a8bd17a460c" style="width: 100.0%; height: 100.0%;">Tayibe, Center</div>')[0];
+                popup_a97b3d3ea83e43d09e5e3171d3149fba.setContent(html_d21a703f872d487d8c052a8bd17a460c);
+            
+
+            circle_marker_304c2aef01a44b268d041c154ff075c5.bindPopup(popup_a97b3d3ea83e43d09e5e3171d3149fba);
+
+            
+        
+    
+            var circle_marker_a83ecda453c44a8183ea4b4be9ef497b = L.circleMarker(
+                [32.0854162,34.7817131],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_c3df910228f44f338ddece6024cefece = L.popup({maxWidth: '300'});
+
+            
+                var html_f76f16cedf47422184fa4f42790e0322 = $('<div id="html_f76f16cedf47422184fa4f42790e0322" style="width: 100.0%; height: 100.0%;">Tel Aviv-Yafo, Tel Aviv</div>')[0];
+                popup_c3df910228f44f338ddece6024cefece.setContent(html_f76f16cedf47422184fa4f42790e0322);
+            
+
+            circle_marker_a83ecda453c44a8183ea4b4be9ef497b.bindPopup(popup_c3df910228f44f338ddece6024cefece);
+
+            
+        
+    
+            var circle_marker_fdc6f9e730914f07beb2385d3c54c845 = L.circleMarker(
+                [32.7938522,35.5328566],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_4178f7612f84454b9b3d849e7c07192d = L.popup({maxWidth: '300'});
+
+            
+                var html_6a780d2dadfa435b922b15c8ef3c4129 = $('<div id="html_6a780d2dadfa435b922b15c8ef3c4129" style="width: 100.0%; height: 100.0%;">Tiberias, North</div>')[0];
+                popup_4178f7612f84454b9b3d849e7c07192d.setContent(html_6a780d2dadfa435b922b15c8ef3c4129);
+            
+
+            circle_marker_fdc6f9e730914f07beb2385d3c54c845.bindPopup(popup_4178f7612f84454b9b3d849e7c07192d);
+
+            
+        
+    
+            var circle_marker_8f0493aac6d34f8690cc8f1231307c2e = L.circleMarker(
+                [32.2346856,34.9544553],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_4bca3753cfcd423c9c7324e542f38efe = L.popup({maxWidth: '300'});
+
+            
+                var html_80df180157c8401994c3e47a62fdc623 = $('<div id="html_80df180157c8401994c3e47a62fdc623" style="width: 100.0%; height: 100.0%;">Tira, Center</div>')[0];
+                popup_4bca3753cfcd423c9c7324e542f38efe.setContent(html_80df180157c8401994c3e47a62fdc623);
+            
+
+            circle_marker_8f0493aac6d34f8690cc8f1231307c2e.bindPopup(popup_4bca3753cfcd423c9c7324e542f38efe);
+
+            
+        
+    
+            var circle_marker_75beac35ae904f89a0747054fef7ca28 = L.circleMarker(
+                [32.7613834,34.9715506],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_5c1f2cce9e264f64b43123177fa3331d = L.popup({maxWidth: '300'});
+
+            
+                var html_943de7b6d8b942c5b262c0bf900bf580 = $('<div id="html_943de7b6d8b942c5b262c0bf900bf580" style="width: 100.0%; height: 100.0%;">Tirat Carmel, Haifa</div>')[0];
+                popup_5c1f2cce9e264f64b43123177fa3331d.setContent(html_943de7b6d8b942c5b262c0bf900bf580);
+            
+
+            circle_marker_75beac35ae904f89a0747054fef7ca28.bindPopup(popup_5c1f2cce9e264f64b43123177fa3331d);
+
+            
+        
+    
+            var circle_marker_ce2f8f2d137a4588988279c49aebda96 = L.circleMarker(
+                [32.5158385,35.152491],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_c926a76915e04f7491a9fea903ddd30d = L.popup({maxWidth: '300'});
+
+            
+                var html_54569fac13a648399c6d35d353e6c23e = $('<div id="html_54569fac13a648399c6d35d353e6c23e" style="width: 100.0%; height: 100.0%;">Umm al-Fahm, Haifa</div>')[0];
+                popup_c926a76915e04f7491a9fea903ddd30d.setContent(html_54569fac13a648399c6d35d353e6c23e);
+            
+
+            circle_marker_ce2f8f2d137a4588988279c49aebda96.bindPopup(popup_c926a76915e04f7491a9fea903ddd30d);
+
+            
+        
+    
+            var circle_marker_89f29411f8fa48dbbdab2ed0fcd94a1b = L.circleMarker(
+                [31.8768863,34.7382974],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_b9580b702e89416bbd0915a0c78e93d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c325184a6d34306bf51545d23b44c4b = $('<div id="html_2c325184a6d34306bf51545d23b44c4b" style="width: 100.0%; height: 100.0%;">Yavne, Center</div>')[0];
+                popup_b9580b702e89416bbd0915a0c78e93d9.setContent(html_2c325184a6d34306bf51545d23b44c4b);
+            
+
+            circle_marker_89f29411f8fa48dbbdab2ed0fcd94a1b.bindPopup(popup_b9580b702e89416bbd0915a0c78e93d9);
+
+            
+        
+    
+            var circle_marker_1790cb8155b24225aa63a4fe22a3f04e = L.circleMarker(
+                [32.0331756,34.8907527],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_36c92418b273428b8397a22fa41eb96e = L.popup({maxWidth: '300'});
+
+            
+                var html_5bfe83addfd94ea4a5a8100ea3fb9541 = $('<div id="html_5bfe83addfd94ea4a5a8100ea3fb9541" style="width: 100.0%; height: 100.0%;">Yehud-Monosson, Center</div>')[0];
+                popup_36c92418b273428b8397a22fa41eb96e.setContent(html_5bfe83addfd94ea4a5a8100ea3fb9541);
+            
+
+            circle_marker_1790cb8155b24225aa63a4fe22a3f04e.bindPopup(popup_36c92418b273428b8397a22fa41eb96e);
+
+            
+        
+    
+            var circle_marker_4dff616650e64e3883ddfe66cc6173c7 = L.circleMarker(
+                [32.6480601,35.0943545],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_834aa2c8bd8447e8a1ccdb2a652e9796);
+            
+    
+            var popup_e779e575451346a1a2053afcadc86d44 = L.popup({maxWidth: '300'});
+
+            
+                var html_bbcbb31002e64688922b8b4679cbe8ea = $('<div id="html_bbcbb31002e64688922b8b4679cbe8ea" style="width: 100.0%; height: 100.0%;">Yokneam Illit, North</div>')[0];
+                popup_e779e575451346a1a2053afcadc86d44.setContent(html_bbcbb31002e64688922b8b4679cbe8ea);
+            
+
+            circle_marker_4dff616650e64e3883ddfe66cc6173c7.bindPopup(popup_e779e575451346a1a2053afcadc86d44);
+
+            
+        
+</script>
